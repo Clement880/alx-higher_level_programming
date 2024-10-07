@@ -1,7 +1,8 @@
 #!/usr/bin/python3
 """
-0-rectangle: class o a rectangle
+0-rectangle: Class that defines a rectangle.
 """
+
 class Rectangle:
-    """Empty class """
+    """Empty class that defines a rectangle."""
 pass
