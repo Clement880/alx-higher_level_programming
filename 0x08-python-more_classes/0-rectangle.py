@@ -1,8 +1,8 @@
 #!/usr/bin/python3
 """
-0-rectangle: Class defines a rectangle.
+0-rectangle: A class that defines a rectangle.
 """
 
 class Rectangle:
-    """Empty class that defines a rectangle."""
-	pass
+    """ An empty class that defines a rectangle."""
+pass
