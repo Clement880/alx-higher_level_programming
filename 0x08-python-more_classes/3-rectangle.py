@@ -1,10 +1,9 @@
 #!/usr/bin/python3
-
 class Rectangle:
-    """Class that defines a rectangle by width and height."""
+    """Class that defines a rectangle."""
 
     def __init__(self, width=0, height=0):
-        """Initialize a new Rectangle."""
+        """Initialize a new Rectangle with given width and height."""
         self.width = width
         self.height = height
 
@@ -54,4 +53,5 @@ class Rectangle:
 
     def __repr__(self):
         """Return a formal string representation of the rectangle."""
-        return "Rectangle({self.__width}, {self.__height})"
+        return "Rectangle({}, {})".format(self.__width, self.__height)
+
